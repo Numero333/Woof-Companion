@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74990C262BADC13E004B5CCF /* Woof_Companion_MVPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C252BADC13E004B5CCF /* Woof_Companion_MVPApp.swift */; };
+		74990C282BADC13E004B5CCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C272BADC13E004B5CCF /* ContentView.swift */; };
+		74990C2A2BADC140004B5CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74990C292BADC140004B5CCF /* Assets.xcassets */; };
+		74990C2D2BADC140004B5CCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74990C2C2BADC140004B5CCF /* Preview Assets.xcassets */; };
+		74990C372BADC140004B5CCF /* Woof_Companion_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C362BADC140004B5CCF /* Woof_Companion_MVPTests.swift */; };
+		74990C412BADC140004B5CCF /* Woof_Companion_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C402BADC140004B5CCF /* Woof_Companion_MVPUITests.swift */; };
+		74990C432BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C422BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74990C332BADC140004B5CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74990C1A2BADC13E004B5CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74990C212BADC13E004B5CCF;
+			remoteInfo = "Woof-Companion-MVP";
+		};
+		74990C3D2BADC140004B5CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74990C1A2BADC13E004B5CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74990C212BADC13E004B5CCF;
+			remoteInfo = "Woof-Companion-MVP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74990C222BADC13E004B5CCF /* Woof-Companion-MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woof-Companion-MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74990C252BADC13E004B5CCF /* Woof_Companion_MVPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woof_Companion_MVPApp.swift; sourceTree = "<group>"; };
+		74990C272BADC13E004B5CCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74990C292BADC140004B5CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74990C2C2BADC140004B5CCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74990C322BADC140004B5CCF /* Woof-Companion-MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woof-Companion-MVPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74990C362BADC140004B5CCF /* Woof_Companion_MVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woof_Companion_MVPTests.swift; sourceTree = "<group>"; };
+		74990C3C2BADC140004B5CCF /* Woof-Companion-MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woof-Companion-MVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74990C402BADC140004B5CCF /* Woof_Companion_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woof_Companion_MVPUITests.swift; sourceTree = "<group>"; };
+		74990C422BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woof_Companion_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74990C1F2BADC13E004B5CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74990C2F2BADC140004B5CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74990C392BADC140004B5CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74990C192BADC13E004B5CCF = {
+			isa = PBXGroup;
+			children = (
+				74990C242BADC13E004B5CCF /* Woof-Companion-MVP */,
+				74990C352BADC140004B5CCF /* Woof-Companion-MVPTests */,
+				74990C3F2BADC140004B5CCF /* Woof-Companion-MVPUITests */,
+				74990C232BADC13E004B5CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74990C232BADC13E004B5CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74990C222BADC13E004B5CCF /* Woof-Companion-MVP.app */,
+				74990C322BADC140004B5CCF /* Woof-Companion-MVPTests.xctest */,
+				74990C3C2BADC140004B5CCF /* Woof-Companion-MVPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74990C242BADC13E004B5CCF /* Woof-Companion-MVP */ = {
+			isa = PBXGroup;
+			children = (
+				74990C252BADC13E004B5CCF /* Woof_Companion_MVPApp.swift */,
+				74990C272BADC13E004B5CCF /* ContentView.swift */,
+				74990C292BADC140004B5CCF /* Assets.xcassets */,
+				74990C2B2BADC140004B5CCF /* Preview Content */,
+			);
+			path = "Woof-Companion-MVP";
+			sourceTree = "<group>";
+		};
+		74990C2B2BADC140004B5CCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74990C2C2BADC140004B5CCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74990C352BADC140004B5CCF /* Woof-Companion-MVPTests */ = {
+			isa = PBXGroup;
+			children = (
+				74990C362BADC140004B5CCF /* Woof_Companion_MVPTests.swift */,
+			);
+			path = "Woof-Companion-MVPTests";
+			sourceTree = "<group>";
+		};
+		74990C3F2BADC140004B5CCF /* Woof-Companion-MVPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74990C402BADC140004B5CCF /* Woof_Companion_MVPUITests.swift */,
+				74990C422BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift */,
+			);
+			path = "Woof-Companion-MVPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74990C212BADC13E004B5CCF /* Woof-Companion-MVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74990C462BADC140004B5CCF /* Build configuration list for PBXNativeTarget "Woof-Companion-MVP" */;
+			buildPhases = (
+				74990C1E2BADC13E004B5CCF /* Sources */,
+				74990C1F2BADC13E004B5CCF /* Frameworks */,
+				74990C202BADC13E004B5CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Woof-Companion-MVP";
+			productName = "Woof-Companion-MVP";
+			productReference = 74990C222BADC13E004B5CCF /* Woof-Companion-MVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74990C312BADC140004B5CCF /* Woof-Companion-MVPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74990C492BADC140004B5CCF /* Build configuration list for PBXNativeTarget "Woof-Companion-MVPTests" */;
+			buildPhases = (
+				74990C2E2BADC140004B5CCF /* Sources */,
+				74990C2F2BADC140004B5CCF /* Frameworks */,
+				74990C302BADC140004B5CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74990C342BADC140004B5CCF /* PBXTargetDependency */,
+			);
+			name = "Woof-Companion-MVPTests";
+			productName = "Woof-Companion-MVPTests";
+			productReference = 74990C322BADC140004B5CCF /* Woof-Companion-MVPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74990C3B2BADC140004B5CCF /* Woof-Companion-MVPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74990C4C2BADC140004B5CCF /* Build configuration list for PBXNativeTarget "Woof-Companion-MVPUITests" */;
+			buildPhases = (
+				74990C382BADC140004B5CCF /* Sources */,
+				74990C392BADC140004B5CCF /* Frameworks */,
+				74990C3A2BADC140004B5CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74990C3E2BADC140004B5CCF /* PBXTargetDependency */,
+			);
+			name = "Woof-Companion-MVPUITests";
+			productName = "Woof-Companion-MVPUITests";
+			productReference = 74990C3C2BADC140004B5CCF /* Woof-Companion-MVPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74990C1A2BADC13E004B5CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					74990C212BADC13E004B5CCF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					74990C312BADC140004B5CCF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 74990C212BADC13E004B5CCF;
+					};
+					74990C3B2BADC140004B5CCF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 74990C212BADC13E004B5CCF;
+					};
+				};
+			};
+			buildConfigurationList = 74990C1D2BADC13E004B5CCF /* Build configuration list for PBXProject "Woof-Companion-MVP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74990C192BADC13E004B5CCF;
+			productRefGroup = 74990C232BADC13E004B5CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74990C212BADC13E004B5CCF /* Woof-Companion-MVP */,
+				74990C312BADC140004B5CCF /* Woof-Companion-MVPTests */,
+				74990C3B2BADC140004B5CCF /* Woof-Companion-MVPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74990C202BADC13E004B5CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74990C2D2BADC140004B5CCF /* Preview Assets.xcassets in Resources */,
+				74990C2A2BADC140004B5CCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74990C302BADC140004B5CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74990C3A2BADC140004B5CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74990C1E2BADC13E004B5CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74990C282BADC13E004B5CCF /* ContentView.swift in Sources */,
+				74990C262BADC13E004B5CCF /* Woof_Companion_MVPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74990C2E2BADC140004B5CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74990C372BADC140004B5CCF /* Woof_Companion_MVPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74990C382BADC140004B5CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74990C432BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift in Sources */,
+				74990C412BADC140004B5CCF /* Woof_Companion_MVPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74990C342BADC140004B5CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74990C212BADC13E004B5CCF /* Woof-Companion-MVP */;
+			targetProxy = 74990C332BADC140004B5CCF /* PBXContainerItemProxy */;
+		};
+		74990C3E2BADC140004B5CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74990C212BADC13E004B5CCF /* Woof-Companion-MVP */;
+			targetProxy = 74990C3D2BADC140004B5CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74990C442BADC140004B5CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74990C452BADC140004B5CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74990C472BADC140004B5CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Woof-Companion-MVP/Preview Content\"";
+				DEVELOPMENT_TEAM = PQM28NC327;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74990C482BADC140004B5CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Woof-Companion-MVP/Preview Content\"";
+				DEVELOPMENT_TEAM = PQM28NC327;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74990C4A2BADC140004B5CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PQM28NC327;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woof-Companion-MVP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Woof-Companion-MVP";
+			};
+			name = Debug;
+		};
+		74990C4B2BADC140004B5CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PQM28NC327;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woof-Companion-MVP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Woof-Companion-MVP";
+			};
+			name = Release;
+		};
+		74990C4D2BADC140004B5CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PQM28NC327;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Woof-Companion-MVP";
+			};
+			name = Debug;
+		};
+		74990C4E2BADC140004B5CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PQM28NC327;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Woof-Companion-MVP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74990C1D2BADC13E004B5CCF /* Build configuration list for PBXProject "Woof-Companion-MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74990C442BADC140004B5CCF /* Debug */,
+				74990C452BADC140004B5CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74990C462BADC140004B5CCF /* Build configuration list for PBXNativeTarget "Woof-Companion-MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74990C472BADC140004B5CCF /* Debug */,
+				74990C482BADC140004B5CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74990C492BADC140004B5CCF /* Build configuration list for PBXNativeTarget "Woof-Companion-MVPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74990C4A2BADC140004B5CCF /* Debug */,
+				74990C4B2BADC140004B5CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74990C4C2BADC140004B5CCF /* Build configuration list for PBXNativeTarget "Woof-Companion-MVPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74990C4D2BADC140004B5CCF /* Debug */,
+				74990C4E2BADC140004B5CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74990C1A2BADC13E004B5CCF /* Project object */;
+}

@@ -14,6 +14,15 @@
 		74990C372BADC140004B5CCF /* Woof_Companion_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C362BADC140004B5CCF /* Woof_Companion_MVPTests.swift */; };
 		74990C412BADC140004B5CCF /* Woof_Companion_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C402BADC140004B5CCF /* Woof_Companion_MVPUITests.swift */; };
 		74990C432BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C422BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift */; };
+		74990C542BADC3A7004B5CCF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C532BADC3A7004B5CCF /* MainView.swift */; };
+		74990C562BADC3FD004B5CCF /* WalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C552BADC3FD004B5CCF /* WalkView.swift */; };
+		74990C582BADC44E004B5CCF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C572BADC44E004B5CCF /* HistoryView.swift */; };
+		74990C5B2BADC5F3004B5CCF /* MotionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C5A2BADC5F3004B5CCF /* MotionManger.swift */; };
+		74990C5D2BADC6C3004B5CCF /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C5C2BADC6C3004B5CCF /* TimerManager.swift */; };
+		74990C5F2BADC728004B5CCF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C5E2BADC728004B5CCF /* LocationManager.swift */; };
+		74990C632BADC7E0004B5CCF /* EnergyChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C602BADC7E0004B5CCF /* EnergyChoice.swift */; };
+		74990C642BADC7E0004B5CCF /* WalkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C612BADC7E0004B5CCF /* WalkModel.swift */; };
+		74990C652BADC7E0004B5CCF /* WeatherChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74990C622BADC7E0004B5CCF /* WeatherChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		74990C3C2BADC140004B5CCF /* Woof-Companion-MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woof-Companion-MVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74990C402BADC140004B5CCF /* Woof_Companion_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woof_Companion_MVPUITests.swift; sourceTree = "<group>"; };
 		74990C422BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woof_Companion_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74990C532BADC3A7004B5CCF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		74990C552BADC3FD004B5CCF /* WalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkView.swift; sourceTree = "<group>"; };
+		74990C572BADC44E004B5CCF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		74990C5A2BADC5F3004B5CCF /* MotionManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManger.swift; sourceTree = "<group>"; };
+		74990C5C2BADC6C3004B5CCF /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		74990C5E2BADC728004B5CCF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		74990C602BADC7E0004B5CCF /* EnergyChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnergyChoice.swift; sourceTree = "<group>"; };
+		74990C612BADC7E0004B5CCF /* WalkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkModel.swift; sourceTree = "<group>"; };
+		74990C622BADC7E0004B5CCF /* WeatherChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,11 @@
 		74990C242BADC13E004B5CCF /* Woof-Companion-MVP */ = {
 			isa = PBXGroup;
 			children = (
-				74990C252BADC13E004B5CCF /* Woof_Companion_MVPApp.swift */,
-				74990C272BADC13E004B5CCF /* ContentView.swift */,
+				74990C592BADC5E6004B5CCF /* Manager */,
+				74990C522BADC2C6004B5CCF /* ApplicationLifeCycle */,
+				74990C4F2BADC291004B5CCF /* Model */,
+				74990C502BADC2A1004B5CCF /* View */,
+				74990C512BADC2A8004B5CCF /* ViewModel */,
 				74990C292BADC140004B5CCF /* Assets.xcassets */,
 				74990C2B2BADC140004B5CCF /* Preview Content */,
 			);
@@ -125,6 +146,52 @@
 				74990C422BADC140004B5CCF /* Woof_Companion_MVPUITestsLaunchTests.swift */,
 			);
 			path = "Woof-Companion-MVPUITests";
+			sourceTree = "<group>";
+		};
+		74990C4F2BADC291004B5CCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74990C602BADC7E0004B5CCF /* EnergyChoice.swift */,
+				74990C612BADC7E0004B5CCF /* WalkModel.swift */,
+				74990C622BADC7E0004B5CCF /* WeatherChoice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74990C502BADC2A1004B5CCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74990C272BADC13E004B5CCF /* ContentView.swift */,
+				74990C532BADC3A7004B5CCF /* MainView.swift */,
+				74990C552BADC3FD004B5CCF /* WalkView.swift */,
+				74990C572BADC44E004B5CCF /* HistoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74990C512BADC2A8004B5CCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74990C522BADC2C6004B5CCF /* ApplicationLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				74990C252BADC13E004B5CCF /* Woof_Companion_MVPApp.swift */,
+			);
+			path = ApplicationLifeCycle;
+			sourceTree = "<group>";
+		};
+		74990C592BADC5E6004B5CCF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				74990C5A2BADC5F3004B5CCF /* MotionManger.swift */,
+				74990C5C2BADC6C3004B5CCF /* TimerManager.swift */,
+				74990C5E2BADC728004B5CCF /* LocationManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +325,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				74990C282BADC13E004B5CCF /* ContentView.swift in Sources */,
+				74990C542BADC3A7004B5CCF /* MainView.swift in Sources */,
+				74990C642BADC7E0004B5CCF /* WalkModel.swift in Sources */,
+				74990C582BADC44E004B5CCF /* HistoryView.swift in Sources */,
 				74990C262BADC13E004B5CCF /* Woof_Companion_MVPApp.swift in Sources */,
+				74990C5F2BADC728004B5CCF /* LocationManager.swift in Sources */,
+				74990C562BADC3FD004B5CCF /* WalkView.swift in Sources */,
+				74990C652BADC7E0004B5CCF /* WeatherChoice.swift in Sources */,
+				74990C632BADC7E0004B5CCF /* EnergyChoice.swift in Sources */,
+				74990C5D2BADC6C3004B5CCF /* TimerManager.swift in Sources */,
+				74990C5B2BADC5F3004B5CCF /* MotionManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +501,13 @@
 				DEVELOPMENT_TEAM = PQM28NC327;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Woof Companion";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +515,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,11 +536,13 @@
 				DEVELOPMENT_TEAM = PQM28NC327;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Woof Companion";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +550,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fxm.Woof-Companion-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

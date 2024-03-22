@@ -8,7 +8,7 @@
 import Foundation
 
 enum WeatherChoice: String, CaseIterable {
-    case rain, sun, cloud, storm, wind
+    case rain, sun, cloud, storm, wind, snow
     
     var description: String {
             switch self {
@@ -17,6 +17,7 @@ enum WeatherChoice: String, CaseIterable {
             case .cloud: return "Nuage"
             case .storm: return "Orage"
             case .wind: return "Vent"
+            case .snow: return "Neige"
             }
         }
 }

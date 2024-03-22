@@ -19,3 +19,4 @@ struct WalkModel {
     var date: Date = Date()
     var encounter: Int = 0
 }
+
